@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xwork - Find Top Talent or Work That Matters</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#" data-page="home">Xwork</a>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" id="closeMenu"></i>
+          <ul>
+            <li><a href="#" data-page="find-work">Find Work</a></li>
+            <li><a href="#" data-page="hire">Hire Talent</a></li>
+            <li><a href="#" data-page="how-it-works">How It Works</a></li>
+            <li><a href="#" data-page="about">About</a></li>
+          </ul>
+        </div>
+        <div class="auth-buttons">
+          <button class="btn btn-outline" id="loginBtn">Log In</button>
+          <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+        </div>
+        <i class="fas fa-bars" id="openMenu"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="mainContent">
+    <!-- Home Page Content (Default) -->
+    <div id="home-page" class="page active">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="animate-fade-in">Find Top Talent or Work That Matters</h1>
+            <p class="animate-fade-in-delay-1">Xwork connects businesses with skilled freelancers from around the world</p>
+            <div class="hero-buttons animate-fade-in-delay-2">
+              <button class="btn btn-light">Hire Talent</button>
+              <button class="btn btn-outline-light">Find Work</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search Section -->
+      <section class="search-section">
+        <div class="container">
+          <div class="search-box animate-slide-up">
+            <div class="search-input">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Search for skills, jobs, or services">
+            </div>
+            <button class="btn btn-primary">Search</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories Section -->
+      <section class="categories">
+        <div class="container">
+          <h2>Popular Categories</h2>
+          <div class="categories-grid">
+            <div class="category-card animate-scale">
+              <div class="category-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>Website design, development, and maintenance</p>
+              <a href="#">Browse Jobs <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card animate-scale">
+              <div class="category-icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3>Design & Creative</h3>
+              <p>Graphic design, UI/UX, and branding</p>
+              <a href="#">Browse Jobs <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card animate-scale">
+              <div class="category-icon">
+                <i class="fas fa-pen-fancy"></i>
+              </div>
+              <h3>Writing & Translation</h3>
+              <p>Content creation, editing, and translation</p>
+              <a href="#">Browse Jobs <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card animate-scale">
+              <div class="category-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>Digital Marketing</h3>
+              <p>SEO, social media, and advertising</p>
+              <a href="#">Browse Jobs <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section class="how-it-works">
+        <div class="container">
+          <h2>How Xwork Works</h2>
+          <div class="steps-grid">
+            <div class="step-card animate-bounce-in">
+              <div class="step-number">1</div>
+              <h3>Post a Job</h3>
+              <p>Create a detailed job posting to attract the right talent for your project</p>
+            </div>
+            <div class="step-card animate-bounce-in-delay-1">
+              <div class="step-number">2</div>
+              <h3>Review Proposals</h3>
+              <p>Compare freelancer profiles, portfolios, and bids to find your perfect match</p>
+            </div>
+            <div class="step-card animate-bounce-in-delay-2">
+              <div class="step-number">3</div>
+              <h3>Complete Project</h3>
+              <p>Work together through our platform and release payment when satisfied</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Freelancers -->
+      <section class="featured-freelancers">
+        <div class="container">
+          <h2>Top Rated Freelancers</h2>
+          <div class="freelancers-grid">
+            <div class="freelancer-card animate-slide-in">
+              <div class="freelancer-header">
+                <div class="freelancer-avatar">
+                  <img src="https://via.placeholder.com/100/30E8BF/FFFFFF?text=AJ" alt="Alex Johnson">
+                </div>
+                <div>
+                  <h3>Alex Johnson</h3>
+                  <p>Full Stack Developer</p>
+                </div>
+              </div>
+              <p class="freelancer-description">Experienced developer specializing in React, Node.js, and modern web technologies.</p>
+              <div class="freelancer-skills">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>TypeScript</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="freelancer-footer">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>4.9</span>
+                </div>
+                <a href="#">View Profile</a>
+              </div>
+            </div>
+            <div class="freelancer-card animate-slide-in-delay-1">
+              <div class="freelancer-header">
+                <div class="freelancer-avatar">
+                  <img src="https://via.placeholder.com/100/FF6B6B/FFFFFF?text=SW" alt="Sarah Williams">
+                </div>
+                <div>
+                  <h3>Sarah Williams</h3>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+              <p class="freelancer-description">Creative designer with a passion for creating beautiful and functional user interfaces.</p>
+              <div class="freelancer-skills">
+                <span>Figma</span>
+                <span>Adobe XD</span>
+                <span>UI Design</span>
+                <span>Prototyping</span>
+              </div>
+              <div class="freelancer-footer">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>4.8</span>
+                </div>
+                <a href="#">View Profile</a>
+              </div>
+            </div>
+            <div class="freelancer-card animate-slide-in-delay-2">
+              <div class="freelancer-header">
+                <div class="freelancer-avatar">
+                  <img src="https://via.placeholder.com/100/4ECDC4/FFFFFF?text=MC" alt="Michael Chen">
+                </div>
+                <div>
+                  <h3>Michael Chen</h3>
+                  <p>Digital Marketing Specialist</p>
+                </div>
+              </div>
+              <p class="freelancer-description">Results-driven marketer with expertise in SEO, PPC, and content strategy.</p>
+              <div class="freelancer-skills">
+                <span>SEO</span>
+                <span>Google Ads</span>
+                <span>Analytics</span>
+                <span>Content Marketing</span>
+              </div>
+              <div class="freelancer-footer">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span>4.7</span>
+                </div>
+                <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="view-all">
+            <button class="btn btn-outline">View All Freelancers</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Jobs Page Content -->
+    <div id="jobs-page" class="page">
+      <div class="container">
+        <h1>Find Work</h1>
+        
+        <!-- Search and Filters -->
+        <div class="jobs-search-box">
+          <div class="search-row">
+            <div class="search-input">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Search for jobs">
+            </div>
+            <button class="btn btn-primary">Search</button>
+          </div>
+          
+          <div class="filters-row">
+            <select>
+              <option value="">Category</option>
+              <option value="web-development">Web Development</option>
+              <option value="design">Design & Creative</option>
+              <option value="writing">Writing & Translation</option>
+              <option value="marketing">Digital Marketing</option>
+            </select>
+            
+            <select>
+              <option value="">Experience Level</option>
+              <option value="entry">Entry Level</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+            </select>
+            
+            <select>
+              <option value="">Job Type</option>
+              <option value="hourly">Hourly</option>
+              <option value="fixed">Fixed Price</option>
+              <option value="long-term">Long Term</option>
+            </select>
+            
+            <select>
+              <option value="">Budget</option>
+              <option value="low">$0 - $100</option>
+              <option value="medium">$100 - $500</option>
+              <option value="high">$500+</option>
+            </select>
+          </div>
+        </div>
+        
+        <!-- Job Listings -->
+        <div class="jobs-list">
+          <!-- Job 1 -->
+          <div class="job-card animate-slide-up">
+            <div class="job-header">
+              <h2><a href="#">React Developer for E-commerce Website</a></h2>
+              <span class="job-type fixed-price">Fixed Price</span>
+            </div>
+            
+            <p class="job-description">Looking for an experienced React developer to build a modern e-commerce website with shopping cart functionality and payment integration.</p>
+            
+            <div class="job-skills">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+              <span>E-commerce</span>
+            </div>
+            
+            <div class="job-details">
+              <div class="job-detail">
+                <i class="fas fa-dollar-sign"></i>
+                <span>$1,000 - $2,000</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Remote</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-briefcase"></i>
+                <span>Intermediate</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-clock"></i>
+                <span>2 days ago</span>
+              </div>
+            </div>
+            
+            <div class="job-footer">
+              <div class="client-info">
+                <div class="client-avatar">
+                  <img src="https://via.placeholder.com/50/30E8BF/FFFFFF?text=T" alt="TechSolutions Inc.">
+                </div>
+                <span>TechSolutions Inc.</span>
+              </div>
+              <button class="btn btn-primary">Apply Now</button>
+            </div>
+          </div>
+          
+          <!-- Job 2 -->
+          <div class="job-card animate-slide-up-delay-1">
+            <div class="job-header">
+              <h2><a href="#">Logo Design for New Startup</a></h2>
+              <span class="job-type fixed-price">Fixed Price</span>
+            </div>
+            
+            <p class="job-description">We need a creative designer to create a modern, memorable logo for our tech startup. The logo should reflect innovation and reliability.</p>
+            
+            <div class="job-skills">
+              <span>Logo Design</span>
+              <span>Branding</span>
+              <span>Adobe Illustrator</span>
+            </div>
+            
+            <div class="job-details">
+              <div class="job-detail">
+                <i class="fas fa-dollar-sign"></i>
+                <span>$300 - $500</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Remote</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-briefcase"></i>
+                <span>Entry Level</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-clock"></i>
+                <span>1 day ago</span>
+              </div>
+            </div>
+            
+            <div class="job-footer">
+              <div class="client-info">
+                <div class="client-avatar">
+                  <img src="https://via.placeholder.com/50/FF6B6B/FFFFFF?text=I" alt="InnovateTech">
+                </div>
+                <span>InnovateTech</span>
+              </div>
+              <button class="btn btn-primary">Apply Now</button>
+            </div>
+          </div>
+          
+          <!-- Job 3 -->
+          <div class="job-card animate-slide-up-delay-2">
+            <div class="job-header">
+              <h2><a href="#">Content Writer for Technology Blog</a></h2>
+              <span class="job-type hourly">Hourly</span>
+            </div>
+            
+            <p class="job-description">Seeking a skilled content writer to create engaging articles about the latest technology trends, software development, and digital innovation.</p>
+            
+            <div class="job-skills">
+              <span>Content Writing</span>
+              <span>SEO</span>
+              <span>Technology</span>
+              <span>Research</span>
+            </div>
+            
+            <div class="job-details">
+              <div class="job-detail">
+                <i class="fas fa-dollar-sign"></i>
+                <span>$20 - $30/hr</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Remote</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-briefcase"></i>
+                <span>Intermediate</span>
+              </div>
+              <div class="job-detail">
+                <i class="fas fa-clock"></i>
+                <span>3 days ago</span>
+              </div>
+            </div>
+            
+            <div class="job-footer">
+              <div class="client-info">
+                <div class="client-avatar">
+                  <img src="https://via.placeholder.com/50/4ECDC4/FFFFFF?text=T" alt="TechBlog Media">
+                </div>
+                <span>TechBlog Media</span>
+              </div>
+              <button class="btn btn-primary">Apply Now</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Pagination -->
+        <div class="pagination">
+          <button class="btn btn-outline">Previous</button>
+          <button class="btn btn-outline active">1</button>
+          <button class="btn btn-outline">2</button>
+          <button class="btn btn-outline">3</button>
+          <button class="btn btn-outline">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile Page Content -->
+    <div id="profile-page" class="page">
+      <div class="container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+          <div class="profile-avatar">
+            <img src="https://via.placeholder.com/200/30E8BF/FFFFFF?text=JD" alt="Profile">
+            <button class="edit-avatar">
+              <i class="fas fa-edit"></i>
+            </button>
+          </div>
+          
+          <div class="profile-info">
+            <div class="profile-title">
+              <div>
+                <h1>John Doe</h1>
+                <p class="profile-subtitle">Full Stack Developer</p>
+              </div>
+              <button class="btn btn-primary">Edit Profile</button>
+            </div>
+            
+            <div class="profile-details">
+              <div class="profile-detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>New York, USA</span>
+              </div>
+              <div class="profile-detail">
+                <i class="fas fa-calendar"></i>
+                <span>Member since Jan 2023</span>
+              </div>
+              <div class="profile-detail">
+                <i class="fas fa-star"></i>
+                <span>4.9 (36 reviews)</span>
+              </div>
+            </div>
+            
+            <p class="profile-bio">
+              Passionate full stack developer with 5+ years of experience building web applications 
+              using React, Node.js, and modern web technologies. Specialized in creating 
+              responsive, user-friendly interfaces and scalable backend systems.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Profile Tabs -->
+        <div class="profile-tabs">
+          <div class="tabs-header">
+            <button class="tab-btn active" data-tab="portfolio">Portfolio</button>
+            <button class="tab-btn" data-tab="experience">Experience</button>
+            <button class="tab-btn" data-tab="reviews">Reviews</button>
+            <button class="tab-btn" data-tab="settings">Settings</button>
+          </div>
+          
+          <!-- Portfolio Tab -->
+          <div class="tab-content active" id="portfolio-tab">
+            <div class="portfolio-grid">
+              <!-- Portfolio Item 1 -->
+              <div class="portfolio-card animate-flip">
+                <div class="portfolio-image">
+                  <img src="https://via.placeholder.com/500x300/30E8BF/FFFFFF?text=Project+1" alt="E-commerce Website">
+                </div>
+                <div class="portfolio-content">
+                  <h3>E-commerce Website</h3>
+                  <p class="portfolio-category">Web Development</p>
+                  <p class="portfolio-description">A fully responsive e-commerce platform with shopping cart and payment integration.</p>
+                  <button class="btn btn-outline full-width">View Project</button>
+                </div>
+              </div>
+              
+              <!-- Portfolio Item 2 -->
+              <div class="portfolio-card animate-flip-delay-1">
+                <div class="portfolio-image">
+                  <img src="https://via.placeholder.com/500x300/FF6B6B/FFFFFF?text=Project+2" alt="Task Management App">
+                </div>
+                <div class="portfolio-content">
+                  <h3>Task Management App</h3>
+                  <p class="portfolio-category">Mobile App</p>
+                  <p class="portfolio-description">A productivity app for managing tasks, projects, and team collaboration.</p>
+                  <button class="btn btn-outline full-width">View Project</button>
+                </div>
+              </div>
+              
+              <!-- Portfolio Item 3 -->
+              <div class="portfolio-card animate-flip-delay-2">
+                <div class="portfolio-image">
+                  <img src="https://via.placeholder.com/500x300/4ECDC4/FFFFFF?text=Project+3" alt="Corporate Website Redesign">
+                </div>
+                <div class="portfolio-content">
+                  <h3>Corporate Website Redesign</h3>
+                  <p class="portfolio-category">UI/UX Design</p>
+                  <p class="portfolio-description">Complete redesign of a corporate website with modern UI and improved user experience.</p>
+                  <button class="btn btn-outline full-width">View Project</button>
+                </div>
+              </div>
+              
+              <!-- Add New Portfolio Item -->
+              <div class="portfolio-card add-new">
+                <div class="add-new-content">
+                  <i class="fas fa-upload"></i>
+                  <h3>Add New Project</h3>
+                  <p>Showcase your work by adding a new portfolio item</p>
+                  <button class="btn btn-primary">Add Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Experience Tab -->
+          <div class="tab-content" id="experience-tab">
+            <!-- Work Experience -->
+            <div class="experience-card">
+              <div class="card-header">
+                <div>
+                  <h2>Work Experience</h2>
+                  <p class="card-subtitle">Your professional history</p>
+                </div>
+                <button class="btn btn-outline btn-sm">
+                  <i class="fas fa-edit"></i>
+                  Edit
+                </button>
+              </div>
+              <div class="card-content">
+                <!-- Job 1 -->
+                <div class="experience-item">
+                  <div class="experience-icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <div class="experience-details">
+                    <h3>Senior Frontend Developer</h3>
+                    <p class="company">TechCorp Inc.</p>
+                    <p class="period">Jan 2021 - Present</p>
+                    <p class="description">Leading the frontend development team, implementing new features, and optimizing performance for a SaaS platform with over 100,000 users.</p>
+                  </div>
+                </div>
+                
+                <!-- Job 2 -->
+                <div class="experience-item">
+                  <div class="experience-icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <div class="experience-details">
+                    <h3>Full Stack Developer</h3>
+                    <p class="company">WebSolutions LLC</p>
+                    <p class="period">Mar 2018 - Dec 2020</p>
+                    <p class="description">Developed and maintained multiple web applications using React, Node.js, and MongoDB. Collaborated with design and product teams to deliver high-quality software.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Skills -->
+            <div class="experience-card">
+              <div class="card-header">
+                <div>
+                  <h2>Skills</h2>
+                  <p class="card-subtitle">Your expertise and proficiencies</p>
+                </div>
+                <button class="btn btn-outline btn-sm">
+                  <i class="fas fa-edit"></i>
+                  Edit
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="skills-list">
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">TypeScript</span>
+                  <span class="skill-tag">React</span>
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">Express</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">PostgreSQL</span>
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">Tailwind CSS</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">AWS</span>
+                  <span class="skill-tag">Docker</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Education -->
+            <div class="experience-card">
+              <div class="card-header">
+                <div>
+                  <h2>Education</h2>
+                  <p class="card-subtitle">Your academic background</p>
+                </div>
+                <button class="btn btn-outline btn-sm">
+                  <i class="fas fa-edit"></i>
+                  Edit
+                </button>
+              </div>
+              <div class="card-content">
+                <!-- Education 1 -->
+                <div class="education-item">
+                  <h3>Master of Computer Science</h3>
+                  <p class="institution">University of Technology</p>
+                  <p class="period">2016 - 2018</p>
+                </div>
+                
+                <!-- Education 2 -->
+                <div class="education-item">
+                  <h3>Bachelor of Science in Software Engineering</h3>
+                  <p class="institution">State University</p>
+                  <p class="period">2012 - 2016</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Reviews Tab -->
+          <div class="tab-content" id="reviews-tab">
+            <div class="reviews-card">
+              <div class="card-header">
+                <h2>Client Reviews</h2>
+                <p class="card-subtitle">Feedback from your clients</p>
+              </div>
+              <div class="card-content">
+                <!-- Review 1 -->
+                <div class="review-item">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <div class="reviewer-avatar">
+                        <img src="https://via.placeholder.com/50/30E8BF/FFFFFF?text=S" alt="Sarah Johnson">
+                      </div>
+                      <div>
+                        <h3>Sarah Johnson</h3>
+                        <p>E-commerce Website Development</p>
+                      </div>
+                    </div>
+                    <div class="review-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="review-comment">John is an exceptional developer who delivered our project ahead of schedule. His attention to detail and problem-solving skills are impressive. Would definitely hire again!</p>
+                  <p class="review-date">June 15, 2023</p>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="review-item">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <div class="reviewer-avatar">
+                        <img src="https://via.placeholder.com/50/FF6B6B/FFFFFF?text=M" alt="Michael Chen">
+                      </div>
+                      <div>
+                        <h3>Michael Chen</h3>
+                        <p>Custom CRM System</p>
+                      </div>
+                    </div>
+                    <div class="review-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="review-comment">Great work on our CRM system. John was responsive, professional, and implemented all the features we requested. The only reason for 4 stars is that we had a few minor bugs that needed fixing after delivery.</p>
+                  <p class="review-date">April 3, 2023</p>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="review-item">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <div class="reviewer-avatar">
+                        <img src="https://via.placeholder.com/50/4ECDC4/FFFFFF?text=E" alt="Emily Rodriguez">
+                      </div>
+                      <div>
+                        <h3>Emily Rodriguez</h3>
+                        <p>Mobile App Development</p>
+                      </div>
+                    </div>
+                    <div class="review-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="review-comment">Working with John was a pleasure. He understood our requirements perfectly and delivered a beautiful, functional app. His communication was excellent throughout the project.</p>
+                  <p class="review-date">January 22, 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Settings Tab -->
+          <div class="tab-content" id="settings-tab">
+            <div class="settings-grid">
+              <!-- Personal Information -->
+              <div class="settings-card">
+                <div class="card-header">
+                  <h2>Personal Information</h2>
+                  <p class="card-subtitle">Update your personal details</p>
+                </div>
+                <div class="card-content">
+                  <form class="settings-form">
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" value="John">
+                      </div>
+                      <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" value="Doe">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" value="john.doe@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label>Phone</label>
+                      <input type="tel" value="+1 (555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                      <label>Location</label>
+                      <input type="text" value="New York, USA">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                  </form>
+                </div>
+              </div>
+              
+              <!-- Professional Information -->
+              <div class="settings-card">
+                <div class="card-header">
+                  <h2>Professional Information</h2>
+                  <p class="card-subtitle">Update your professional details</p>
+                </div>
+                <div class="card-content">
+                  <form class="settings-form">
+                    <div class="form-group">
+                      <label>Title</label>
+                      <input type="text" value="Full Stack Developer">
+                    </div>
+                    <div class="form-group">
+                      <label>Hourly Rate ($)</label>
+                      <input type="number" value="45">
+                    </div>
+                    <div class="form-group">
+                      <label>Bio</label>
+                      <textarea rows="4">Passionate full stack developer with 5+ years of experience building web applications using React, Node.js, and modern web technologies. Specialized in creating responsive, user-friendly interfaces and scalable backend systems.</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login/Register Page -->
+    <div id="auth-page" class="page">
+      <div class="container">
+        <div class="auth-container">
+          <div class="auth-logo">
+            <a href="#" data-page="home">Xwork</a>
+          </div>
+          
+          <div class="auth-tabs">
+            <div class="tabs-header">
+              <button class="tab-btn active" data-tab="login">Login</button>
+              <button class="tab-btn" data-tab="register">Register</button>
+            </div>
+            
+            <!-- Login Tab -->
+            <div class="tab-content active" id="login-tab">
+              <div class="auth-card">
+                <div class="card-header">
+                  <h2>Welcome back</h2>
+                  <p class="card-subtitle">Enter your credentials to access your account</p>
+                </div>
+                <div class="card-content">
+                  <div class="auth-error" id="login-error" style="display: none;">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p></p>
+                  </div>
+                  
+                  <form id="login-form" class="auth-form">
+                    <div class="form-group">
+                      <label for="login-email">Email</label>
+                      <input type="email" id="login-email" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="password-header">
+                        <label for="login-password">Password</label>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                      </div>
+                      <input type="password" id="login-password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Login</button>
+                  </form>
+                </div>
+                <div class="card-footer">
+                  <p>Don't have an account? <a href="#" class="switch-tab" data-tab="register">Sign up</a></p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Register Tab -->
+            <div class="tab-content" id="register-tab">
+              <div class="auth-card">
+                <div class="card-header">
+                  <h2>Create an account</h2>
+                  <p class="card-subtitle">Enter your details to create your Xwork account</p>
+                </div>
+                <div class="card-content">
+                  <div class="auth-error" id="register-error" style="display: none;">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p></p>
+                  </div>
+                  
+                  <form id="register-form" class="auth-form">
+                    <div class="form-group">
+                      <label for="register-email">Email</label>
+                      <input type="email" id="register-email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="register-password">Password</label>
+                      <input type="password" id="register-password" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="confirm-password">Confirm Password</label>
+                      <input type="password" id="confirm-password" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Account Type</label>
+                      <div class="account-type-options">
+                        <div class="account-type-option">
+                          <input type="radio" id="freelancer" name="accountType" value="freelancer" checked>
+                          <label for="freelancer">
+                            <span class="option-title">Freelancer</span>
+                            <span class="option-description">I want to find work</span>
+                          </label>
+                        </div>
+                        <div class="account-type-option">
+                          <input type="radio" id="client" name="accountType" value="client">
+                          <label for="client">
+                            <span class="option-title">Client</span>
+                            <span class="option-description">I want to hire</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group terms-checkbox">
+                      <input type="checkbox" id="terms" required>
+                      <label for="terms">
+                        I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Create Account</button>
+                  </form>
+                </div>
+                <div class="card-footer">
+                  <p>Already have an account? <a href="#" class="switch-tab" data-tab="login">Log in</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post Job Page -->
+    <div id="post-job-page" class="page">
+      <div class="container">
+        <h1>Post a New Job</h1>
+        
+        <div class="post-job-card">
+          <div class="card-header">
+            <h2>Job Details</h2>
+            <p class="card-subtitle">Provide detailed information to attract the right talent</p>
+          </div>
+          <div class="card-content">
+            <div class="post-job-error" style="display: none;">
+              <i class="fas fa-exclamation-circle"></i>
+              <p></p>
+            </div>
+            
+            <form id="post-job-form" class="post-job-form">
+              <div class="form-group">
+                <label for="job-title">Job Title</label>
+                <input type="text" id="job-title" placeholder="e.g. React Developer for E-commerce Website" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="job-description">Job Description</label>
+                <textarea id="job-description" rows="6" placeholder="Describe the job requirements, responsibilities, and deliverables" required></textarea>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="job-type">Job Type</label>
+                  <select id="job-type" required>
+                    <option value="">Select job type</option>
+                    <option value="Fixed Price">Fixed Price</option>
+                    <option value="Hourly">Hourly</option>
+                    <option value="Long Term">Long Term</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label for="job-budget">Budget</label>
+                  <input type="text" id="job-budget" placeholder="e.g. $500 - $1,000 or $30 - $50/hr" required>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="job-location">Location</label>
+                  <select id="job-location" required>
+                    <option value="">Select location</option>
+                    <option value="Remote">Remote</option>
+                    <option value="On-site">On-site</option>
+                    <option value="Hybrid">Hybrid</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label for="job-experience">Experience Level</label>
+                  <select id="job-experience" required>
+                    <option value="">Select experience level</option>
+                    <option value="Entry Level">Entry Level</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Expert">Expert</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label>Skills Required</label>
+                <div class="skills-input">
+                  <input type="text" id="skill-input" placeholder="Add a skill (e.g. React, JavaScript, Design)">
+                  <button type="button" class="btn btn-outline" id="add-skill-btn">
+                    <i class="fas fa-plus"></i>
+                    Add
+                  </button>
+                </div>
+                
+                <div class="skills-list" id="skills-list"></div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary full-width">Post Job</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3>Xwork</h3>
+          <p>The premier platform connecting businesses with top freelance talent worldwide.</p>
+          <p class="copyright">© 2024 LVS Group. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <h4>For Clients</h4>
+          <ul>
+            <li><a href="#">How to Hire</a></li>
+            <li><a href="#">Talent Marketplace</a></li>
+            <li><a href="#">Enterprise Solutions</a></li>
+            <li><a href="#">Success Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For Freelancers</h4>
+          <ul>
+            <li><a href="#">Find Work</a></li>
+            <li><a href="#">Create Profile</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Toast -->
+  <div class="toast" id="toast">
+    <div class="toast-content">
+      <i class="fas fa-check-circle toast-icon"></i>
+      <div class="toast-message">Action completed successfully!</div>
+    </div>
+    <div class="toast-progress"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
